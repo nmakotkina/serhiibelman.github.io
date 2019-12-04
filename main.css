@@ -1,0 +1,77 @@
+html, body {
+	/*margin: 0;*/
+}
+
+body {
+	background-image: url("./img/background.jpg");
+}
+
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.bold-font {
+	font-weight: bold;
+}
+
+.content-center {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.header {
+	padding: 50px 20px 20px 20px;
+	color: #595959;
+}
+
+.logo-wrap span {
+	padding: 20px 10px;
+}
+
+.logo {
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+	background-color: #ff0080;
+}
+
+.nav-menu {
+	padding: 0;
+	margin: 0;
+}
+
+.menu-items {
+	display: block;
+	float: left;
+	list-style: none;
+	padding: 20px 10px;
+}
+
+.nav-menu .btn:hover {
+	color: white;
+	background-color: #595959;
+}
