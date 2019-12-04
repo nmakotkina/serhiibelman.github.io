@@ -9,6 +9,7 @@ body {
 * {
 	box-sizing: border-box;
 	font-family: sans-serif;
+	color: #595959;
 }
 
 .clearfix {
@@ -21,6 +22,10 @@ body {
 	border-radius: 10px;
 }
 
+.bth:visited {
+	color: #595959;
+}
+
 .left {
 	float: left;
 }
@@ -29,7 +34,7 @@ body {
 	float: right;
 }
 
-.bold-font {
+.b-font {
 	font-weight: bold;
 }
 
@@ -44,7 +49,7 @@ body {
 
 .header {
 	padding: 50px 20px 20px 20px;
-	color: #595959;
+	margin-bottom: 10px;
 }
 
 .logo-wrap span {
@@ -64,10 +69,12 @@ body {
 	margin: 0;
 }
 
-.menu-items {
-	display: block;
+.nav-menu li {
 	float: left;
 	list-style: none;
+}
+
+.nav-menu .btn {
 	padding: 20px 10px;
 }
 
@@ -75,3 +82,52 @@ body {
 	color: white;
 	background-color: #595959;
 }
+
+.banner {
+	background-color: white;
+	padding: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.banner div:first-child {
+	width: 45%;
+}
+
+.banner h1 {
+	margin: 0;
+}
+
+.banner .btn {
+	background-color: #e6e6e6;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.banner .btn:first-child {
+	margin-bottom: 10px;
+}
+
+.banner .btn:hover {
+	background-color: #0066ff;
+	color: #e6e6e6;
+}
+
+.banner-description {
+	font-size: 25px;
+}
+
+.ico-inf {
+	display: inline-block;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	padding: 1px;
+	font-size: 20px;
+	margin-left: 40px;
+	border-radius: 50%;
+	color: #e6e6e6;
+	background-color: #595959;
+}
+
