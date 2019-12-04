@@ -93,6 +93,18 @@ body {
 	width: 45%;
 }
 
+.ico-inf {
+	display: inline-block;
+	text-align: center;
+	width: 33px;
+	height: 33px;
+	/*padding: 2px;*/
+	font-size: 30px;
+	border-radius: 50%;
+	color: #e6e6e6;
+	background-color: #595959;
+}
+
 .banner .btn {
 	background-color: #e6e6e6;
 	font-weight: 900;
@@ -109,6 +121,11 @@ body {
 	color: #e6e6e6;
 }
 
+.banner .btn:hover > span {
+	background-color: #e6e6e6;
+	color: #0066ff;
+}
+
 .banner-h {
 	font-size: 60px;
 }
@@ -120,18 +137,6 @@ body {
 
 .banner .right span {
 	margin-left: 70px;
-}
-
-.ico-inf {
-	display: inline-block;
-	text-align: center;
-	width: 22px;
-	height: 22px;
-	padding: 1px;
-	font-size: 20px;
-	border-radius: 50%;
-	color: #e6e6e6;
-	background-color: #595959;
 }
 
 .articles {
